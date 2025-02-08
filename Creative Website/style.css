@@ -172,7 +172,7 @@ a{
 /*----- 4 part of the page------- */
 
 .creativety{
-    height: 40vh;
+    height: 50vh;
     /* border: 2px solid black; */
     background-color: rgb(217, 216, 216);
     display: flex;
@@ -181,8 +181,8 @@ a{
 
 .content{
     width: 600px;
-    padding: 50px;
-    margin-left: 6%;
+    padding: 75px;
+    margin-left: 4%;
 }
 
 .btn-3{
@@ -198,25 +198,170 @@ a{
 }
 
 .img-part2{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 
 .of-1{
     position: absolute;
-    bottom: 20%;
+    bottom: 40%;
     left: 60%;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px;
+    box-shadow: 10px 10px 15px;
     height: 40vh;
     width: 13%;
+    transition: all 1s ease-in-out;
+}
+
+.of-1:hover{
+    transform: scale(1.1);
 }
 
 .of-2{
     position: absolute;
     left: 78%;
-    height: 30vh;
+    height: 35vh;
     border-radius: 10px;
-    bottom: 30%;
-    box-shadow: 10px 10px 20px;
+    bottom: 45%;
+    box-shadow: 10px 10px 15px;
+    transition: all 1s ease-in-out;
+}
+
+.of-2:hover{
+    transform: scale(1.1);
+}
+
+.of-3{
+    position: absolute;
+    height: 25vh;
+    width: 150px;
+    bottom: -20%;
+    left: 78%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    transition: all 1s ease-in-out;
+}
+
+.of-3:hover{
+    transform: scale(1.1);
+}
+
+.of-4{
+    position: absolute;
+    height: 20vh;
+    bottom: -35px;
+    left: 68%;
+    box-shadow: 10px 10px 15px;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.of-4:hover{
+    transform: scale(1.1);
+}
+
+/* -----5 part of the page----- */
+
+.project{
+    height: 160vh;
+
+}
+
+.project-1{
+    width: 60%;
+    /* border: 2px solid black; */
+    margin-left: 4%;
+    padding: 80px;
+}
+
+.carded{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carded-1{
+    width: 20%;
+    text-align: center;
+}
+
+#btn-4{
+    padding: 8px 50px;
+    border-radius: 7px;
+    margin-left: 45%;
+   
+    transition: all 0.1s ease-in-out;
+}
+
+#btn-4:hover{
+    background-color:  rgb(92, 92, 226);
+    color: white;
+    cursor: pointer;
+}
+
+
+/*----- 6 part of the page----- */
+
+.creativety2{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    background-color: rgb(217, 216, 216);
+    position: relative;
+}
+
+#off-img{
+    height: 50vh;
+    width: 20%;
+    position: absolute;
+    left: 15%;
+    top: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+}
+
+
+/*----- 7 part of the page------ */
+
+.stories{
+    height: 115vh;
+}
+
+.new-office{
+    display: flex;
+    justify-content: space-evenly;
+}
+.new-off-1{
+    width: 20%;
+    font-size: 13px;
+}
+
+/* ----8th part of the page---- */
+
+.customer{
+    height: 450px;
+    background-color: rgb(217, 216, 216);
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1{
+    border: 2px solid black;
+    background-color: rgb(37, 37, 133);
+    font-style: italic;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#tsk1{
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 40%;
+    color: yellow;
 }
