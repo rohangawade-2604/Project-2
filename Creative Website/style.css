@@ -31,12 +31,24 @@ a{
     text-decoration: none;
     color: black;
     font-size: 20px;
+    transition: all 0.1s ease-in-out;
+}
+
+a:hover{
+   color: blue;
 }
 
 .btn-1{
     padding: 5px 12px;
     margin-left: 12px;
     border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-1:hover{
+    background-color:  rgb(92, 92, 226);
+    color: white;
+    cursor: pointer;
 }
 
 /*--------- page part 1 -------------*/
@@ -319,6 +331,11 @@ a{
     top: 1%;
     border-radius: 10px;
     box-shadow: 10px 10px 15px;
+    transition: all 1s ease-in-out;
+}
+
+#off-img:hover{
+    transform: scale(1.1);
 }
 
 
@@ -364,4 +381,125 @@ a{
     padding: 10px;
     margin-left: 40%;
     color: yellow;
+}
+
+/* ------9th part of the page------- */
+
+.pricing{
+    height: 80vh;
+}
+
+.logo-price{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.font-logo{
+    font-size: 16px;
+}
+
+.price-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price-card1{
+    width: 300px;
+
+}
+.tick-cont{
+    display: flex;
+}
+
+
+/* -----10th part of the page----- */
+
+.full-contact{
+    background-color: rgb(217, 216, 216);
+    position: relative;
+    height: 110vh;
+}
+
+.contact-page{
+    margin-left: 9%;
+}
+
+input[placeholder]{
+    padding: 10px;
+   height: 40px;
+   width: 400px;
+}
+
+textarea{
+    padding: 10px;
+    height: 170px;
+    width: 400px;
+}
+
+#btn-5{
+    margin-left: 7%;
+    padding: 10px 5%;
+
+}
+
+.cont-img{
+    position: absolute;
+    bottom: 17%;
+    left: 50%;
+}
+
+#c-img1{
+    height: 465px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    transition: all 1s ease-in-out;
+}
+
+#c-img1:hover{
+    transform: scale(1.1);
+}
+
+.cont-img2{
+    position: absolute;
+    left: 73%;
+    bottom: 45%;
+}
+
+#c-img2{
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    transition: all 1s ease-in-out;
+}
+
+#c-img2:hover{
+    transform: scale(1.1);
+}
+
+.cont-img3{
+    position: absolute;
+    left: 73%;
+    bottom: 12%;
+}
+
+#c-img3{
+    height: 225px;
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    transition: all 1s ease-in-out;
+}
+
+#c-img3:hover{
+    transform: scale(1.1);
+}
+
+
+/* -----footer page with ending----- */
+
+.Small-footer{
+    background-color: rgb(37, 37, 133);
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
 }
