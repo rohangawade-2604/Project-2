@@ -20,6 +20,7 @@ nav{
 ul{
    display: flex;
    justify-content: space-between;
+  
 }
 
 li{
@@ -49,6 +50,34 @@ a:hover{
     background-color:  rgb(92, 92, 226);
     color: white;
     cursor: pointer;
+}
+
+#ham{
+    display: none;
+}
+
+/* media query for navbar */
+
+@media (max-width : 360px) {
+    nav{
+        width: 100%;
+       
+        /* overflow: hidden; */
+
+    }
+
+    ul{
+        /* display: none; */
+        font-size: 10px;
+    }
+
+    #LG-button{
+        display: none;
+    }
+
+    #ham{
+        display: block;
+    }
 }
 
 /*--------- page part 1 -------------*/
@@ -121,6 +150,46 @@ a:hover{
     margin-left: 60%;
 }
 
+@media (max-width : 360px){
+    .Full-part{
+        overflow: hidden;
+        height: 45rem;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        position: relative;
+    }
+
+    .content-part{
+        position: absolute;
+        top: 7%;
+        margin-bottom: 100%;
+        font-size: 15px;
+    }
+
+    .img-part{
+        position: absolute;
+        top: 52%;
+        box-shadow: 10px 10px 15px;
+       
+    }
+
+    .img-1{
+        height: 300px;
+        margin: 30px;
+    }
+
+    .content-box{
+        position: absolute;
+        left: 20px;
+        padding: 6px;
+        top: 200px;
+        margin: 20px;
+        width: 300px;
+        
+    }
+}
+
 
 /*2 page with logos */
 
@@ -140,6 +209,18 @@ a:hover{
 .bg-img{
     padding: 10px;
     background-color: rgb(217, 216, 216);
+}
+
+@media  (max-width : 360px) {
+    .all-logos{
+        overflow: scroll;
+        height: 150px;
+        
+    }
+
+    .img-logo #bg-img{
+        padding: 10px;
+    }
 }
 
 
@@ -178,6 +259,28 @@ a:hover{
 
 .font{
     font-size: 40px;
+}
+
+@media (max-width: 360px){
+    .service{
+        overflow: hidden;
+        height: 150vh;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .firs-cont {
+       margin: 0px 1px;
+       padding: 30px;
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .Card-part{
+        display: block;
+        margin-left: 30px;
+    }
 }
 
 
@@ -270,6 +373,54 @@ a:hover{
 
 .of-4:hover{
     transform: scale(1.1);
+}
+
+@media (max-width : 360px) {
+    .creativety{
+        margin: 0px;
+        padding: 0px;
+        height: 105vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .content{
+        margin-top: 30px;
+        padding: 0px 20px;
+        width: 100%;
+    }
+
+    .img-part2{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .of-1{
+        position: absolute;
+        left: 40px;
+        top: 40%;
+        height: 200px;
+        width: 150px;
+    }
+
+    .of-2{
+        position: absolute;
+        left: 60%;
+        width: 120px;
+        bottom: 28%;
+    }
+
+    .of-3{
+        position: absolute;
+        left: 10%;
+        bottom: 7%;
+    }
+
+    .of-4{
+        position: absolute;
+        left: 60%;
+        bottom: 5%;
+    }
 }
 
 /* -----5 part of the page----- */
