@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   
+
 }
 
-nav{
+nav {
     width: 100%;
     height: 100px;
     /* background-color: black; */
@@ -13,76 +13,88 @@ nav{
     align-items: center;
 }
 
-.logo , img{
+.logo,
+img {
     height: 90px;
 }
 
-ul{
-   display: flex;
-   justify-content: space-between;
-  
+ul {
+    display: flex;
+    justify-content: space-between;
+
 }
 
-li{
+li {
     margin-left: 20px;
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     transition: all 0.1s ease-in-out;
 }
 
-a:hover{
-   color: blue;
+a:hover {
+    color: blue;
 }
 
-.btn-1{
+.btn-1 {
     padding: 5px 12px;
     margin-left: 12px;
     border-radius: 5px;
     transition: all 0.1s ease-in-out;
 }
 
-.btn-1:hover{
-    background-color:  rgb(92, 92, 226);
+.btn-1:hover {
+    background-color: rgb(92, 92, 226);
     color: white;
     cursor: pointer;
 }
 
-#ham{
+#ham {
     display: none;
 }
 
 /* media query for navbar */
 
 @media (max-width : 360px) {
-    nav{
+    nav {
         width: 100%;
-       
+        height: 70px;
+        /* background-color: black; */
         /* overflow: hidden; */
-
     }
 
-    ul{
+    .logo {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav {
+        background-color: black;
+    }
+
+    ul {
         /* display: none; */
         font-size: 10px;
     }
 
-    #LG-button{
+    #LG-button {
         display: none;
     }
 
-    #ham{
+    #ham {
         display: block;
     }
 }
 
 /*--------- page part 1 -------------*/
 
-.Full-part{
+.Full-part {
     height: 70vh;
     width: 100%;
     /* background-color: blue; */
@@ -90,7 +102,7 @@ a:hover{
     /* border: 2px solid black; */
 }
 
-.content-part{
+.content-part {
     height: 70vh;
     /* width: 60%; */
     /* border: 2px solid black; */
@@ -100,24 +112,24 @@ a:hover{
     /* justify-content: center; */
 }
 
-.para-1{
+.para-1 {
     margin-bottom: 10px;
 }
 
-.btn-2{
+.btn-2 {
     padding: 8px 20px;
     border-radius: 7px;
     transition: all 0.1s ease-in-out;
 }
 
-.btn-2:hover{
-    background-color:  rgb(92, 92, 226);
+.btn-2:hover {
+    background-color: rgb(92, 92, 226);
     color: white;
     cursor: pointer;
 }
 
 
-.img-1{
+.img-1 {
     position: absolute;
     left: 70%;
     height: 520px;
@@ -126,7 +138,7 @@ a:hover{
     box-shadow: 15px 10px 20px;
 }
 
-.content-box{
+.content-box {
     width: 20%;
     padding: 15px;
     position: absolute;
@@ -139,19 +151,19 @@ a:hover{
     border-radius: 10px;
 }
 
-#task{
+#task {
     font-size: 15px;
     margin-top: 10px;
 }
 
-#task1{
+#task1 {
     font-size: 15px;
     padding: 10px;
     margin-left: 60%;
 }
 
-@media (max-width : 360px){
-    .Full-part{
+@media (max-width : 360px) {
+    .Full-part {
         overflow: hidden;
         height: 45rem;
         width: 100%;
@@ -160,65 +172,66 @@ a:hover{
         position: relative;
     }
 
-    .content-part{
+    .content-part {
         position: absolute;
         top: 7%;
         margin-bottom: 100%;
         font-size: 15px;
     }
 
-    .img-part{
+    .img-part {
         position: absolute;
         top: 52%;
         box-shadow: 10px 10px 15px;
-       
+
     }
 
-    .img-1{
+    .img-1 {
         height: 300px;
         margin: 30px;
     }
 
-    .content-box{
+    .content-box {
         position: absolute;
         left: 20px;
         padding: 6px;
         top: 200px;
         margin: 20px;
         width: 300px;
-        
+
     }
 }
 
 
 /*2 page with logos */
 
-.all-logos{
+.all-logos {
     height: 140px;
     background-color: rgb(217, 216, 216);
     margin-top: 50px;
 
 }
 
-.img-logo{
+.img-logo {
     margin-left: 3%;
     display: flex;
     justify-content: space-evenly;
     padding: 24px;
 }
-.bg-img{
+
+.bg-img {
     padding: 10px;
     background-color: rgb(217, 216, 216);
 }
 
-@media  (max-width : 360px) {
-    .all-logos{
+@media (max-width : 360px) {
+    .all-logos {
         overflow: scroll;
         height: 150px;
-        
+
     }
 
-    .img-logo #bg-img{
+    .img-logo #bg-img {
         padding: 10px;
     }
 }
@@ -226,20 +239,20 @@ a:hover{
 
 /*------ 3 part of the page ------- */
 
-.service{
+.service {
     height: 70vh;
     width: 100%;
     /* background-color: red; */
 }
 
-.firs-cont{
+.firs-cont {
     width: 60%;
     padding: 50px;
     margin-left: 6%;
     /* border: 2px solid black; */
 }
 
-.Card-part{
+.Card-part {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -247,22 +260,22 @@ a:hover{
     /* font-size: 10px; */
 }
 
-.card-1{
+.card-1 {
     /* border: 2px solid black; */
     height: 30vh;
 }
 
-.para-2{
+.para-2 {
     width: 250px;
     font-size: 14px;
 }
 
-.font{
+.font {
     font-size: 40px;
 }
 
-@media (max-width: 360px){
-    .service{
+@media (max-width: 360px) {
+    .service {
         overflow: hidden;
         height: 150vh;
         width: 100%;
@@ -271,13 +284,13 @@ a:hover{
     }
 
     .firs-cont {
-       margin: 0px 1px;
-       padding: 30px;
+        margin: 0px 1px;
+        padding: 30px;
         width: 300px;
         font-size: 15px;
     }
 
-    .Card-part{
+    .Card-part {
         display: block;
         margin-left: 30px;
     }
@@ -286,7 +299,7 @@ a:hover{
 
 /*----- 4 part of the page------- */
 
-.creativety{
+.creativety {
     height: 50vh;
     /* border: 2px solid black; */
     background-color: rgb(217, 216, 216);
@@ -294,30 +307,30 @@ a:hover{
     position: relative;
 }
 
-.content{
+.content {
     width: 600px;
     padding: 75px;
     margin-left: 4%;
 }
 
-.btn-3{
+.btn-3 {
     padding: 8px 20px;
     border-radius: 7px;
     transition: all 0.1s ease-in-out;
 }
 
-.btn-3:hover{
-    background-color:  rgb(92, 92, 226);
+.btn-3:hover {
+    background-color: rgb(92, 92, 226);
     color: white;
     cursor: pointer;
 }
 
-.img-part2{
+.img-part2 {
     /* border: 2px solid black; */
 }
 
 
-.of-1{
+.of-1 {
     position: absolute;
     bottom: 40%;
     left: 60%;
@@ -328,11 +341,11 @@ a:hover{
     transition: all 1s ease-in-out;
 }
 
-.of-1:hover{
+.of-1:hover {
     transform: scale(1.1);
 }
 
-.of-2{
+.of-2 {
     position: absolute;
     left: 78%;
     height: 35vh;
@@ -342,11 +355,11 @@ a:hover{
     transition: all 1s ease-in-out;
 }
 
-.of-2:hover{
+.of-2:hover {
     transform: scale(1.1);
 }
 
-.of-3{
+.of-3 {
     position: absolute;
     height: 25vh;
     width: 150px;
@@ -357,11 +370,11 @@ a:hover{
     transition: all 1s ease-in-out;
 }
 
-.of-3:hover{
+.of-3:hover {
     transform: scale(1.1);
 }
 
-.of-4{
+.of-4 {
     position: absolute;
     height: 20vh;
     bottom: -35px;
@@ -371,31 +384,32 @@ a:hover{
     transition: all 1s ease-in-out;
 }
 
-.of-4:hover{
+.of-4:hover {
     transform: scale(1.1);
 }
 
 @media (max-width : 360px) {
-    .creativety{
+    .creativety {
         margin: 0px;
         padding: 0px;
         height: 105vh;
         width: 100%;
         position: relative;
+        overflow: hidden;
     }
 
-    .content{
+    .content {
         margin-top: 30px;
         padding: 0px 20px;
         width: 100%;
     }
 
-    .img-part2{
+    .img-part2 {
         display: flex;
         flex-wrap: wrap-reverse;
     }
 
-    .of-1{
+    .of-1 {
         position: absolute;
         left: 40px;
         top: 40%;
@@ -403,20 +417,20 @@ a:hover{
         width: 150px;
     }
 
-    .of-2{
+    .of-2 {
         position: absolute;
         left: 60%;
         width: 120px;
         bottom: 28%;
     }
 
-    .of-3{
+    .of-3 {
         position: absolute;
         left: 10%;
         bottom: 7%;
     }
 
-    .of-4{
+    .of-4 {
         position: absolute;
         left: 60%;
         bottom: 5%;
@@ -425,47 +439,79 @@ a:hover{
 
 /* -----5 part of the page----- */
 
-.project{
+.project {
     height: 160vh;
 
 }
 
-.project-1{
+.project-1 {
     width: 60%;
     /* border: 2px solid black; */
     margin-left: 4%;
     padding: 80px;
 }
 
-.carded{
+.carded {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.carded-1{
+.carded-1 {
     width: 20%;
     text-align: center;
 }
 
-#btn-4{
+#btn-4 {
     padding: 8px 50px;
     border-radius: 7px;
     margin-left: 45%;
-   
+
     transition: all 0.1s ease-in-out;
 }
 
-#btn-4:hover{
-    background-color:  rgb(92, 92, 226);
+#btn-4:hover {
+    background-color: rgb(92, 92, 226);
     color: white;
     cursor: pointer;
+}
+
+@media (max-width : 360px) {
+    .project {
+        height: 367vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-1 {
+        padding: 0px 25px;
+        margin-top: 30px;
+        width: 85%;
+    }
+
+    .carded {
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .carded-1 {
+        width: 90%;
+        padding: 18px;
+    }
+
+    .project #btn-4 {
+        position: absolute;
+        bottom: 2%;
+        margin-left: 26%;
+    }
 }
 
 
 /*----- 6 part of the page----- */
 
-.creativety2{
+.creativety2 {
     height: 350px;
     display: flex;
     justify-content: space-around;
@@ -474,7 +520,7 @@ a:hover{
     position: relative;
 }
 
-#off-img{
+#off-img {
     height: 50vh;
     width: 20%;
     position: absolute;
@@ -485,40 +531,87 @@ a:hover{
     transition: all 1s ease-in-out;
 }
 
-#off-img:hover{
+#off-img:hover {
     transform: scale(1.1);
 }
 
+@media (max-width : 360px) {
+
+    .creativety2 {
+        height: 100vh;
+        overflow: hidden;
+
+    }
+
+    #off-img {
+        margin-top: 85%;
+        width: 70%;
+        padding: 0px;
+    }
+
+
+}
 
 /*----- 7 part of the page------ */
 
-.stories{
+.stories {
     height: 115vh;
 }
 
-.new-office{
+.new-office {
     display: flex;
     justify-content: space-evenly;
 }
-.new-off-1{
+
+.new-off-1 {
     width: 20%;
     font-size: 13px;
 }
 
+@media (max-width : 360px) {
+    .stories {
+        height: 255vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .new-office {
+        display: block;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .new-off-1 {
+        width: 70%;
+        margin-left: 20px;
+        padding: 20px;
+
+        /* font-size: 15px; */
+    }
+
+    .stories #btn-4 {
+        position: absolute;
+        bottom: 1%;
+        margin-left: 26%;
+    }
+
+}
+
 /* ----8th part of the page---- */
 
-.customer{
+.customer {
     height: 450px;
     background-color: rgb(217, 216, 216);
 
 }
 
-.box{
+.box {
     display: flex;
     justify-content: space-evenly;
 }
 
-.box1{
+.box1 {
     border: 2px solid black;
     background-color: rgb(37, 37, 133);
     font-style: italic;
@@ -527,113 +620,159 @@ a:hover{
     padding: 15px;
 }
 
-#tsk1{
+#tsk1 {
     font-size: 15px;
     padding: 10px;
     margin-left: 40%;
     color: yellow;
 }
 
+@media (max-width : 360px) {
+    .customer {
+        height: 104vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .customer .project-1 {
+        padding: 25px 25px;
+    }
+
+    .box {
+        display: block;
+        width: 80%;
+        padding: 36px;
+    }
+
+    .box1 {
+        margin: 10px;
+    }
+}
+
+
 /* ------9th part of the page------- */
 
-.pricing{
+.pricing {
     height: 80vh;
 }
 
-.logo-price{
+.logo-price {
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
 }
 
-.font-logo{
+.font-logo {
     font-size: 16px;
 }
 
-.price-card{
+.price-card {
     display: flex;
     justify-content: space-evenly;
 }
 
-.price-card1{
+.price-card1 {
     width: 300px;
 
 }
-.tick-cont{
+
+.tick-cont {
     display: flex;
+}
+
+@media (max-width : 360px) {
+    .pricing {
+        height: 180vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .price-card {
+        display: block;
+    }
+
+    .price-card1 {
+        padding: 20px;
+        margin-left: 25px;
+    }
+
+    .price-card1 .btn-3 {
+        margin-left: 30%;
+        padding: 10px 30px;
+    }
 }
 
 
 /* -----10th part of the page----- */
 
-.full-contact{
+.full-contact {
     background-color: rgb(217, 216, 216);
     position: relative;
     height: 110vh;
 }
 
-.contact-page{
+.contact-page {
     margin-left: 9%;
 }
 
-input[placeholder]{
+input[placeholder] {
     padding: 10px;
-   height: 40px;
-   width: 400px;
+    height: 40px;
+    width: 400px;
 }
 
-textarea{
+textarea {
     padding: 10px;
     height: 170px;
     width: 400px;
 }
 
-#btn-5{
+#btn-5 {
     margin-left: 7%;
     padding: 10px 5%;
 
 }
 
-.cont-img{
+.cont-img {
     position: absolute;
     bottom: 17%;
     left: 50%;
 }
 
-#c-img1{
+#c-img1 {
     height: 465px;
     border-radius: 10px;
     box-shadow: 10px 10px 15px;
     transition: all 1s ease-in-out;
 }
 
-#c-img1:hover{
+#c-img1:hover {
     transform: scale(1.1);
 }
 
-.cont-img2{
+.cont-img2 {
     position: absolute;
     left: 73%;
     bottom: 45%;
 }
 
-#c-img2{
+#c-img2 {
     height: 230px;
     border-radius: 10px;
     box-shadow: 10px 10px 15px;
     transition: all 1s ease-in-out;
 }
 
-#c-img2:hover{
+#c-img2:hover {
     transform: scale(1.1);
 }
 
-.cont-img3{
+.cont-img3 {
     position: absolute;
     left: 73%;
     bottom: 12%;
 }
 
-#c-img3{
+#c-img3 {
     height: 225px;
     width: 160px;
     border-radius: 10px;
@@ -641,16 +780,92 @@ textarea{
     transition: all 1s ease-in-out;
 }
 
-#c-img3:hover{
+#c-img3:hover {
     transform: scale(1.1);
+}
+
+@media (max-width : 360px) {
+    .full-contact {
+        height: 300vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    input[placeholder] {
+        width: 280px;
+    }
+
+    textarea {
+        width: 280px;
+    }
+
+    #btn-5{
+        margin-left: 25%;
+    }
+
+    .cont-img {
+        position: absolute;
+        left: 10%;
+        top: 35%;
+        margin-left: 1%;
+    }
+
+    #c-img1 {
+        width: 90%;
+    }
+
+    .cont-img2 {
+        position: absolute;
+        left: 12%;
+        top: 58%;
+    }
+
+    #c-img2 {
+        width: 90%;
+        height: 400px;
+    }
+
+    .cont-img3 {
+        position: absolute;
+        left: 16%;
+        top: 78%;
+    }
+
+    #c-img3 {
+        width: 95%;
+        height: 400px;
+    }
+
+
+
+
 }
 
 
 /* -----footer page with ending----- */
 
-.Small-footer{
+.Small-footer {
     background-color: rgb(37, 37, 133);
     display: flex;
     justify-content: space-evenly;
-   align-items: center;
+    align-items: center;
+}
+
+@media (max-width : 360px) {
+    .Small-footer{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .Small-footer .logo img{
+        height: 90px;
+    }
+
+
+
+
+
 }
