@@ -237,6 +237,12 @@ a:hover {
 .bg-img {
     padding: 10px;
     background-color: rgb(217, 216, 216);
+
+}
+
+img{
+    mix-blend-mode: color-burn;   
+    /* imp part to burn the background color of any img */
 }
 
 @media (max-width : 360px) {
