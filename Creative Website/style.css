@@ -263,7 +263,7 @@ img{
 .service {
     height: 70vh;
     width: 100%;
-    /* background-color: red; */
+
 }
 
 .firs-cont {
@@ -347,7 +347,7 @@ img{
 }
 
 .img-part2 {
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 
 
