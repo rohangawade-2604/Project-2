@@ -1,4 +1,5 @@
 # Project-2
 Done with the languages
 1. Just making the parts of streaks in the github
-2. 
+2. just making the parts of streaks in the github
+3. just making the parts of streaks in the github
